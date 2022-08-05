@@ -1,0 +1,39 @@
+/* @import url("var.css"); */
+.menu{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 1.5rem;
+    height: 8rem;
+    flex-direction: column;
+    
+}
+.menu_head{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+.menu_head__imagen{
+    width: 15%;
+}
+.menu_head__titulo{
+    font-size: 1.6rem;
+    justify-content: center;
+}
+.menu__navegacion{
+    display: flex;
+    align-items: center;
+}
+.menu__navegacion__list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    font-size: 1.3rem;
+}
+.menu__enlace a{
+    color: var(--color-letra);
+    padding-left: .3rem;
+}
