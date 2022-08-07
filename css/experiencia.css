@@ -1,0 +1,71 @@
+@import url("var.css");
+.experiencia{
+    gap: 1.5rem;
+}
+.experiencia__box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+
+}
+.experiencia__img{
+    width: 80%;
+    max-height: 15rem;
+}
+.experiencia__info{
+    display: flex;
+    flex-direction: column;   
+    align-items: center;
+    font: var(--open-sans);
+    gap: 1rem;
+}
+.experiencia__subtitle{
+    font-size: 1.2rem;
+    font: var(--open-sans);
+    font-weight: 700;
+
+}
+.experiencia__text{
+    font: var(--open-sans);
+    font-size: 1rem;
+    align-items: center;
+}
+.experiencia__descrip{
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+}
+/* .experiencia__repo{
+
+} */
+.experiencia__boton-repo{
+    background: #80558C;
+    height: 2.5rem;
+    color: #F9F5EB;
+    width: 10rem;
+    border: 1px solid #D8DFE8;
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+/* .experiencia__demo{
+
+} */
+.experiencia__boton-demo{
+    background: #AC7088;
+    height: 2.5rem;
+    color: #F9F5EB;
+    width: 10rem;
+    border: 1px solid #D8DFE8;
+    font-size: 1rem;
+
+}
+button:active{
+    margin-top: 0px;
+    border: 0;
+}
+
+button[disabled = disabled], button:disabled{
+    background-color: gray;
+	border-color: darkgray;
+}
