@@ -1,3 +1,15 @@
+.about{
+    display: flex;
+    margin-top: 5%;
+    flex-direction: column;
+    margin-left: 0.5rem;
+}
+
+.about__descripcion{
+    padding-top: 1rem;
+    font-size: 1.3rem;
+    font-family: var(--tiro);
+}
 
 .title{
     display: flex;
@@ -43,4 +55,23 @@
 }
 .title__item-imagen{
     width: .8rem;
+}
+@media screen and (min-width: 1024px){
+    .title__titulo{
+        font-size: 2rem;
+    }
+    .title_texto{
+        font-size: 1.7rem;
+    }
+    .title_div{
+        max-height: 30rem;
+    }
+    .title__list-items a{
+        font-size: 1.5rem;
+    }
+
+    .title, .about{
+        width: 80%;
+        padding-left: 10%;
+    }
 }

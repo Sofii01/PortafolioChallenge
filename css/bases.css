@@ -16,3 +16,25 @@ a {
 main{
     scroll-behavior: smooth;
 }
+button:active{
+    margin-top: 0px;
+    border: 0;
+}
+
+button[disabled = disabled], button:disabled{
+    background-color: gray;
+	border-color: darkgray;
+}
+
+
+@media screen and (min-width: 1024px) {
+    .skills_titulo,.about__title, .hobbies_titulo,.formacion__titulo,.experiencia__title, .formcontato__title{
+        font-size: 1.7rem;
+    }
+}
+@media screen and (min-width: 768px){
+    .menu{
+        flex-direction: row;
+    }
+
+}

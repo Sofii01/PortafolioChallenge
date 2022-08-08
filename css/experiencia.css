@@ -60,12 +60,27 @@
     font-size: 1rem;
 
 }
-button:active{
-    margin-top: 0px;
-    border: 0;
-}
 
-button[disabled = disabled], button:disabled{
-    background-color: gray;
-	border-color: darkgray;
+@media screen and (min-width: 768px){
+    .experiencia{
+        align-items: center;
+    }
+    .experiencia__box{
+        width: 70%;
+    }
+    .experiencia__subtitle{
+        font-size: 1.5rem;
+    }
+    .experiencia__text{
+        font-size: 1.2rem;
+    }
+    .experiencia__descrip{
+        justify-content: center;
+    }
+}
+@media screen and (min-width: 1024px){
+    .experiencia__img{
+        max-height: 22rem;
+        max-width: 30rem;
+    }
 }
