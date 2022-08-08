@@ -3,7 +3,7 @@
 
 body{
     background: var(--background-fondo);
-    font-family: var(--open-sans);
+    font-family: var(--tiro);
     color: var(--color-letra);
     padding: 10px;
 }
@@ -12,4 +12,7 @@ ul, li{
 }
 a {
     text-decoration: none;
+}
+main{
+    scroll-behavior: smooth;
 }

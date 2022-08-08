@@ -4,12 +4,8 @@
     flex-direction: column;
     margin-left: 0.5rem;
 }
-.about__title{
-    justify-content: center;
-    display: flex;
-    font-size: 1.5rem;
-    font-weight: bold;
-}
+
 .about__descripcion{
     font-size: 1.3rem;
+    font-family: var(--tiro);
 }

@@ -2,10 +2,12 @@
     display: flex;
     flex-direction: column;
     margin-top: 5%;
+    animation: bounce; 
+    animation-duration: 2s; 
     
 }
 
-.skills_titulo, .hobbies_titulo,.formacion__titulo,.experiencia__title{
+.skills_titulo,.about__title, .hobbies_titulo,.formacion__titulo,.experiencia__title, .formcontato__title{
     display: flex;
     justify-content: center;
     font-size: 1.5rem;

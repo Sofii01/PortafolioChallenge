@@ -1,0 +1,53 @@
+@import url('var.css');
+.formcontato{
+    display: flex;
+    margin-top: 2rem;
+
+}
+.formcontato__contacto{
+    display: flex;
+}
+.formcontato__text{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    font-family: var(--tiro);
+}
+
+.formcontato__subtext{
+    font-family: var(--tiro);
+}
+.formcontato__form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+
+}
+.formcontato__input{
+    height: 2rem;
+    border: none;
+    font-family: var(--tiro);
+}
+.formcontato__textarea{
+    border: none;
+    height: 3rem;
+}
+.formcontato__botao{
+    border: none;
+    background: #80558C;
+    width: 80%;
+    height: 2rem;
+    color: #F9F5EB;
+    font-size: 1rem;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.footer__rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
