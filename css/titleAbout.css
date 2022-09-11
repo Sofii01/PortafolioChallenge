@@ -14,22 +14,24 @@
 .title{
     display: flex;
     margin-top: 2rem;
+    max-width: 1024px;
 }
 .title_div{
     display: flex;
     margin-top: 5%;
-    flex-direction: row-reverse;
+    flex-direction: column;
+    align-items: center;
 }
 .title__imagen{
-    width: 35%;
+    width: 45%;
     border-radius: 5rem;
     max-height: 60%;
 }
 .title__contenido{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-
+    margin-top: 2rem;
+    align-items: center;
     font-family: var(--tiro);
     gap: 1rem;
 
@@ -45,7 +47,8 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
+    gap: 1rem;
 }
 .title__list-items a{
     color: var(--color-letra);
@@ -65,6 +68,7 @@
     }
     .title_div{
         max-height: 30rem;
+        flex-direction: row-reverse;
     }
     .title__list-items a{
         font-size: 1.5rem;
