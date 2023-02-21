@@ -1,8 +1,9 @@
 @import url("var.css");
 
-.formacion, .formacion__contenido, .experiencia{
+.formacion, .formacion__contenido{
     display: flex;
-    margin-top: 3rem;
+    margin-top: 1.2rem;
+    width: 74%;
     flex-direction: column;
 }
 .formacion__contenido{
@@ -11,8 +12,8 @@
 
 .formacion__contenido-box{
     display: flex;
-    background: var(--background-fondo-box);
-    height: 15rem;
+    background: beige;
+    height: 9rem;
     justify-content: space-around;
     
 }
@@ -20,17 +21,18 @@
 .formacion__contenido-list{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
     align-items: center;
     font: var(--open-sans);
+    gap: .8rem;
+    padding-top: .8rem;
 }
 .formacion__contenido-item-img{
-    width: 5.5rem;
+    width: 7vh;
 
 }
-.formacion__contenido-item-title{
-    font-weight: 700;
-    font-size: 1.2rem;
+.formacion__contenido-item-title, .formacion__contenido-item-subtitle{
+    font-size: .67rem;
+    color: black;
 
 }
 @media screen and (min-width: 768px){

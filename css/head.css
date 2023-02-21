@@ -1,41 +1,33 @@
-/* @import url("var.css"); */
+
 .menu{
     display: flex;
-    justify-content: space-between;
-    width: 100%;
-    margin-top: 1.5rem;
-    height: 8rem;
+    height: 5rem;
     flex-direction: column;
+    width: 70%;
     
 }
-.menu_head{
+.menu h3{
     display: flex;
-    align-items: center;
-    width: 100%;
-    justify-content: center;
-}
-.menu_head__imagen{
-    width: 15%;
-}
-.menu_head__titulo{
-    font-size: 1.6rem;
-    justify-content: center;
+    padding-left: .62rem;
 }
 .menu__navegacion{
     display: flex;
     align-items: center;
+    width: 74%;
 }
 .menu__navegacion__list{
     display: flex;
-    flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
     flex-wrap: wrap;
-    font-size: 1.3rem;
+    gap: 0.3rem;
+    justify-content: space-evenly;
+}
+.menu__enlace{
+    font-size: .67rem;
 }
 .menu__enlace a{
     color: var(--color-letra);
-    padding-left: .3rem;
+    gap: .5rem;
 }
 @media screen and (min-width: 768px){
     .menu{

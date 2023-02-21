@@ -2,29 +2,33 @@
 .formcontato{
     display: flex;
     margin-top: 2rem;
-
+    width: 70%;
 }
 .formcontato__contacto{
     display: flex;
+    width: 90%;
 }
 .formcontato__text{
     display: flex;
     flex-direction: column;
-    gap: 1.2rem;
+    gap: 1rem;
     font-family: var(--tiro);
+    width: 90%;
 }
 
 .formcontato__subtext{
     font-family: var(--tiro);
+    font-size: .67rem;
 }
 .formcontato__form{
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
-
+    width: 90%;
+    font-size: .67rem;
 }
 .formcontato__input{
-    height: 2rem;
+    height: 1.2rem;
     border: none;
     font-family: var(--tiro);
 }
@@ -32,24 +36,26 @@
     border: none;
     height: 3rem;
 }
-.formcontato__botao{
+.formcontato__boton{
     border: none;
     background: #80558C;
     width: 80%;
-    height: 2rem;
+    height: 1.3rem;
     color: #F9F5EB;
-    font-size: 1rem;
+    font-size: .67rem;
 }
 
 .footer{
     display: flex;
     justify-content: center;
     margin-top: 2rem;
+    width: 60%;
 }
 .footer__rodape{
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: .67rem;
 }
 
 @media screen and (min-width: 768px){

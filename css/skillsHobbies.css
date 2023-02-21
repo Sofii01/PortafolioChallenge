@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     margin-top: 5%;
+    width: 70%;
     /* animation: bounce; 
     animation-duration: 2s;  */
     
@@ -9,8 +10,7 @@
 
 .skills_titulo,.about__title, .hobbies_titulo,.formacion__titulo,.experiencia__title, .formcontato__title{
     display: flex;
-    justify-content: center;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: bold;
 }
 /* azul-violeta #311EB4 #6F2FCA* #6F0427 #094249*/
@@ -18,22 +18,21 @@
     margin-top: 5%;
     display: flex;
     flex-direction: row;
-    gap: 1.5rem;
+    gap: 1rem;
     flex-wrap: wrap;
 }
 .skills__box-imagen, .hobbies_box-imagen{
-    width: 40%;
+    width: 5vh;
 }
 .skills_box, .hobbies_box{
-    width: 25%;
+    width: 21%;
     display: flex;
-    padding-left: 0.3rem;
     flex-direction: column;
-    align-items: flex-start;
     justify-content: flex-end;
-    height: 8rem;
-    /* border: 1px solid var(--color-enlaces); */
-    background: var(--background-fondo-box);
+    height: 4rem;
+    color: black;
+    background: bisque;
+    font-size: .57rem;
 }
 
 
