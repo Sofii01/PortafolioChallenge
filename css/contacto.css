@@ -2,11 +2,9 @@
 .formcontato{
     display: flex;
     margin-top: 2rem;
-    width: 70%;
 }
 .formcontato__contacto{
     display: flex;
-    width: 90%;
 }
 .formcontato__text{
     display: flex;
@@ -49,7 +47,6 @@
     display: flex;
     justify-content: center;
     margin-top: 2rem;
-    width: 60%;
 }
 .footer__rodape{
     display: flex;

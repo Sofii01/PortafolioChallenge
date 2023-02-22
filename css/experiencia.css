@@ -3,14 +3,13 @@
     display: flex;
     margin-top: 8%;
     flex-direction: column;
-    width: 70%;
 }
 .experiencia__box{
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1rem;
-    width: 76%;
+    width: 90%;
     margin-top: 5%;
 }
 .experiencia__img{

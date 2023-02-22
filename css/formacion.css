@@ -3,17 +3,17 @@
 .formacion, .formacion__contenido{
     display: flex;
     margin-top: 1.2rem;
-    width: 74%;
     flex-direction: column;
 }
 .formacion__contenido{
     gap: 1.5rem;
+    width: 90%;
 }
 
 .formacion__contenido-box{
     display: flex;
     background: beige;
-    height: 9rem;
+    height: 15vh;
     justify-content: space-around;
     
 }
