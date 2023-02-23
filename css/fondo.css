@@ -39,7 +39,8 @@
 }
 @media screen and (min-width: 768px){
     .todo{
-        width: 90%;
-        padding-left: 3%;
+        width: 85%;
+        padding-left: 5%;
+    
     }
 }

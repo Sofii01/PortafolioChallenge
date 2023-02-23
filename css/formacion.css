@@ -12,10 +12,11 @@
 
 .formacion__contenido-box{
     display: flex;
-    background: beige;
     height: 15vh;
     justify-content: space-around;
-    
+    border: 1px solid #B9FFF8;
+    border-radius: 20%;
+    color: var(--color-letra);
 }
 
 .formacion__contenido-list{
@@ -32,14 +33,24 @@
 }
 .formacion__contenido-item-title, .formacion__contenido-item-subtitle{
     font-size: .67rem;
-    color: black;
-
 }
 @media screen and (min-width: 768px){
     .formacion__contenido{
         width: 80%;
         padding-left: 5rem;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
+    .formacion__contenido-box{
+        height: 25vh;
+        width: 42%;
+        justify-content: center;
+        align-items: center;
+    }
+    .formacion__contenido-item-title, .formacion__contenido-item-subtitle{
+        font-size: 1.67rem;
+    }
+
 }
 @media screen and (min-width: 1024px){
     .formacion__contenido{

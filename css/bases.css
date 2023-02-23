@@ -38,6 +38,11 @@ button[disabled = disabled], button:disabled{
 .resaltado{
     border: solid #D2001A 2px !important; 
 }
+.skills_titulo,.about__title, .hobbies_titulo,.formacion__titulo,.experiencia__title, .formcontato__title{
+    display: flex;
+    font-size: 1rem;
+    font-weight: bold;
+}
 
 @media screen and (min-width: 1024px) {
     .skills_titulo,.about__title, .hobbies_titulo,.formacion__titulo,.experiencia__title, .formcontato__title{
@@ -51,6 +56,9 @@ button[disabled = disabled], button:disabled{
     body{
         display: flex;
         align-items: center;
+    }
+    .skills_titulo,.about__title, .hobbies_titulo,.formacion__titulo,.experiencia__title, .formcontato__title{
+        font-size: 2rem;
     }
 
 }

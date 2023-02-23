@@ -36,7 +36,7 @@
 }
 .formcontato__boton{
     border: none;
-    background: #80558C;
+    background: #205295;
     width: 80%;
     height: 1.3rem;
     color: #F9F5EB;
@@ -64,5 +64,7 @@
     }
 }
 @media screen and (min-width: 1024px){
-
+    .formcontato__boton{
+        height: 1.8rem;
+    }
 }

@@ -30,17 +30,23 @@
 }
 @media screen and (min-width: 768px){
     .menu{
-        width: 80%;
         flex-direction: row;
         align-items: center;
     }
+    .menu h3{
+        font-size: 2rem;
+    }
     .menu__navegacion{
         justify-content: space-around;
+        height: 6vh;
     }
     .menu__navegacion__list{
         gap: 1rem;
+    }
+    .menu__enlace{
         font-size: 2rem;
     }
+    
 }
 @media screen and (min-width: 1024px){
     .menu__navegacion__list{

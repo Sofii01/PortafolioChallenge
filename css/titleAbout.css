@@ -54,7 +54,7 @@
 }
 @media screen and (min-width: 768px){
     .title{
-        width: 80%;
+        justify-content: center;
     }
     .title_div{
         width: 80%;
@@ -65,9 +65,25 @@
         max-height: 80%;
         border-radius: 50%;
     }
+    .title__contenido{
+        padding-left: 6%;
+    }
+    .title__titulo{
+        font-size: 3rem;
+    }
     .title__list{
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
+        padding-left: 3%;
+    }
+    .title__list-items{
+        font-size: 2rem;
+    }
+    .about{
+        width: 90%;
+    }
+    .about__descripcion{
+        font-size: 1.67rem;
     }
 }
 @media screen and (min-width: 1024px){
